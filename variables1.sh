@@ -24,6 +24,6 @@ echo "$PERSON3 : I love it, $PERSON2. Good thinking, $PERSON1! Let’s lock it i
 anand=500
 surya=1000
 
-SUM=$(($anand+$surya))
+sum=$(($anand+$surya))
 
-echo "${SUM}"
+echo "${sum}"
