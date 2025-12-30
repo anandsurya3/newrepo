@@ -16,3 +16,14 @@ echo "$PERSON3 : To be honest, $PERSON2, I’m more in the mood for something ou
 echo "$PERSON1 : Since $PERSON3 is being flexible, $PERSON2, maybe we can find a park that has an outdoor art installation?"
 echo "$PERSON2 : That is a perfect compromise, $PERSON1! What do you think of that plan, $PERSON3?"
 echo "$PERSON3 : I love it, $PERSON2. Good thinking, $PERSON1! Let’s lock it in."
+
+
+
+
+
+anand=500
+surya=1000
+
+$SUM={$anand+$surya}
+
+echu $SUM
