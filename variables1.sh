@@ -27,3 +27,5 @@ surya=1000
 sum=$(($anand+$surya))
 
 echo "${sum}"
+
+echo "$pwd"
