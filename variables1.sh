@@ -30,3 +30,13 @@ echo "${sum}"
 
 echo "$PWD"
 
+x=30
+
+echo "x"
+
+echo "$x"
+
+echo y=$((25+10))
+
+echo $(($x+$y))
+
