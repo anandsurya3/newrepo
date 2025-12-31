@@ -28,4 +28,5 @@ sum=$(($anand+$surya))
 
 echo "${sum}"
 
-echo "$pwd"
+echo "$PWD"
+
