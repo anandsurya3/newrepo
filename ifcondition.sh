@@ -1,12 +1,15 @@
 #!/bin/bash
 
-echo "pls enter the pin :"
+NUMBER=$1
 
-read NUMBER
+if [ $NUMBER -lt 10 ]; then
+    echo "Given number $NUMBER is less than 10"
+elif [ $NUMBER -eq 10 ]; then
+    echo "Given number $NUMBER is equal to 10"
+else
+    echo "Given number $NUMBER is greater than to 10"
+fi
 
-if [ $NUMBER -le 15 ]; then
- echo "given $NUMBER less then 15"
- 
-  else
-  echo "given $NUMBER grater then 15"
-  fi
+# -gt
+# -eq
+# -ne
