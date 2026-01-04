@@ -16,6 +16,6 @@ do
  echo $i
  done
 
-x=$(100*2)
+x=$((100*2))
 
 echo $x
