@@ -9,3 +9,9 @@ if [ $NUMBER -lt 10 ]; then
   else 
    echo "given number is grater then 10"
    fi
+
+echo $PWD
+
+x=$((25*2))
+
+echo $x
