@@ -17,3 +17,15 @@ if [ $NUMBER -gt 20 ]; then
    x=$((185908*4))
 
    echo $x 
+
+
+   NUMBER=$1
+
+   if [ $NUMBER -gt 10 ]; then
+    echo "given $NUMBER is grater then 10"
+    elif [ $NUMBER -eq 10 ]; then
+     echo "given $NUMBER is equal to 10"
+     else
+     echo "given $NUMBER is grater then 10"
+     fi 
+     
