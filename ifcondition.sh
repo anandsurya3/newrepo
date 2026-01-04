@@ -9,3 +9,8 @@ elif [ $NUMBER -eq 10 ]; then
 else
     echo "given $NUMBER is graterthen 10"
 fi
+
+for i in {1..32}
+do
+echo $i
+done
