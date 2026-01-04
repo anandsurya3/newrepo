@@ -30,5 +30,4 @@ if [ $NUMBER -gt 20 ]; then
      fi 
 
      userid=$(id -u)
-     eecho $userid
-     
+     echo $userid
