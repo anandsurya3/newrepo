@@ -26,6 +26,6 @@ if [ $NUMBER -gt 20 ]; then
     elif [ $NUMBER -eq 10 ]; then
      echo "given $NUMBER is equal to 10"
      else
-     echo "given $NUMBER is grater then 10"
+     echo "given $NUMBER is less then 10"
      fi 
      
