@@ -3,7 +3,7 @@
 PERSON=$1
 
 if [ $PERSON -ge 15 ]; then
-echo "person is alive"
+echo "$PERSON is alive"
 else
-echo "person is ded"
+echo "$PERSON is ded"
 fi
