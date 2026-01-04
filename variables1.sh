@@ -1,11 +1,11 @@
-#!/bin.bash
+#!/bin/bash
 
-echo "please enter the number"
+echo "please enter the number :"
 
 read NUMBER
 
-if [ $(($NUMBER % 2)) -eq 10 ]; then
+if [ $(($NUMBER % 2)) -eq 0 ]; then
  echo "given $NUMBER is even"
-else 
- echo "given $NUMBER is odd"
+ else 
+  echo "given $NUMBER odd"
   fi
