@@ -5,15 +5,15 @@ echo " please enter the pin :"
 read NUMBER 
 
 if [ $NUMBER -gt 20 ]; then
- echo "given $NUMBER is less then 20"
+ echo "given $NUMBER is grater then 20"
  elif [ $NUMBER -eq 20 ]; then
   echo "given $NUMBER is equl to 20"
   else
-   echo "given $NUMBER is grater then 20"
+   echo "given $NUMBER is less then 20"
    fi 
 
    echo $PWD
 
-   x=$((25+25*2-75))
+   x=$((25+25*2))
 
    echo $x 
