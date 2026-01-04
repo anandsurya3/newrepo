@@ -1,12 +1,9 @@
 #!/bin/bash
 
-echo "enter staus :"
+PERSON=$1
 
-read process
-
-if [ $process -gt 30 ]; 
-then 
- echo "process is going"
+if [ $PERSON -ge 15 ]; then
+echo "person is alive"
 else
- echo "process is dined"
- fi 
+echo "person is ded"
+fi
