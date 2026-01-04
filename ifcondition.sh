@@ -4,4 +4,4 @@ echo "staus :"
 
 read process
 
-if { $process -gt 30 }
+if [ $process -gt 30 ]

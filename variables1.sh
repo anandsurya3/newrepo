@@ -38,7 +38,6 @@ echo "$x"
 
 echo y=$((25+10))
 
-echo "$y"
 
 echo $((x+y))
 
