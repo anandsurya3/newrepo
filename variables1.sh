@@ -3,7 +3,7 @@
 echo "please enter the number : "
 
 read NUMBER 
- if [ $(($NUUMBER % 2 )) -eq 0 ]; then 
+ if [ $(($NUMBER % 2 )) -eq 0 ]; then 
   echo "given $NUMBER is even"
   else 
    echo "given $NUMBER is odd"
@@ -15,4 +15,3 @@ for i in {1..35}
 do
  echo $i
  done
- 
