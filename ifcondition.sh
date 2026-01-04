@@ -9,19 +9,16 @@ if [ $NUMBER -gt 15 ]; then
 elif [ $NUMBER -eq 15 ]; then 
  echo " given $NUMBER is equl to 15"
 
- else
+else
   echo " given $NUMBER is less then 15"
-  fi 
-
-  $PWD
-
+fi 
 
   NUMBER=$1
 
-  if [ $NUMBER - lt 25 ]; then
+if [ $NUMBER - lt 25 ]; then
   echo " given $NUMBER is less then 25"
 elif [ $NUMBER -eq 25 ]; then 
 echo " given $NUMBER is equal to 25"
 else 
  echo " given $NUMBER grater then 25"
- fi
+fi
