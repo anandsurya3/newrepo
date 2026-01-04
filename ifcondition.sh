@@ -2,7 +2,7 @@
 
 echo "please enter the pin :"
 
-read NUMBER
+NUMBER=$1
 
 if [ $NUMBER -lt 10 ]; then
  echo "given number is less then 10"
