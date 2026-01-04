@@ -28,4 +28,7 @@ if [ $NUMBER -gt 20 ]; then
      else
      echo "given $NUMBER is less then 10"
      fi 
+
+     userid=$(id -u)
+     eecho $userid
      
