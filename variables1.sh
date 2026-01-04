@@ -12,15 +12,4 @@ if [ $(( $NUMBER % 2 )) -eq 0]; then
 
   $PWD
 
-  userid=$(id -u)
-   echo $userid
-
-   x+y=$((1500*5))
-echo $x+y
-
-echo for i in {1..48}
-do
- echo $i
- done
-
  
