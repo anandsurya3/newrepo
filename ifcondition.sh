@@ -1,14 +1,9 @@
 #!/bin/bash
 
+NUMBER=$1
 
-
-  NUMBER=$1
-
-if [ $NUMBER - lt 25 ]; then
-  echo " given $NUMBER is less then 25"
-elif [ $NUMBER -eq 25 ]; then 
-  echo " given $NUMBER is equal to 25"
-else 
- echo " given $NUMBER grater then 25"
+if [ $NUMBER -lt 10 ]; then
+    echo "given $NUMBER is lessthen 10"
+else
+    echo "given $NUMBER is graterthen 10"
 fi
-
