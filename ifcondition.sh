@@ -15,10 +15,6 @@ elif [ $NUMBER -eq 15 ]; then
 
   $PWD
 
-  for i in {1..10}
-  do
-   echo $i 
- done 
 
   NUMBER=$1
 
