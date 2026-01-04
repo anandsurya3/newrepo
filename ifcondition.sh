@@ -12,6 +12,5 @@ if [ $NUMBER -lt 10 ]; then
 
 echo $PWD
 
-x=$((25*2))
+echo x=$((25*2))
 
-echo $x
