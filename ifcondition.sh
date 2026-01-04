@@ -1,33 +1,31 @@
 #!/bin/bash
 
-echo " please enter the pin :"
+echo "please enter the number : "
 
 read NUMBER 
 
-if [ $NUMBER -gt 20 ]; then
- echo "given $NUMBER is grater then 20"
- elif [ $NUMBER -eq 20 ]; then
-  echo "given $NUMBER is equl to 20"
-  else
-   echo "given $NUMBER is less then 20"
-   fi 
+if [ $NUMBER -gt 15 ]; then 
+    echo "given $NUMBER is grater then 15"
+elif [ $NUMBER -eq 15 ]; then 
+ echo " given $NUMBER is equl to 15"
 
-   echo $PWD
+ else
+  echo " given $NUMBER is less then 15"
+  fi 
 
-   x=$((185908*4))
+  $PWD
 
-   echo $x 
+  for i in {1..10}
+  do
+   echo $i 
+ done 
 
+  NUMBER=$1
 
-   NUMBER=$1
-
-   if [ $NUMBER -gt 10 ]; then
-    echo "given $NUMBER is grater then 10"
-    elif [ $NUMBER -eq 10 ]; then
-     echo "given $NUMBER is equal to 10"
-     else
-     echo "given $NUMBER is less then 10"
-     fi 
-
-     userid=$(id -u)
-     echo $userid
+  if [ $NUMBER - lt 25 ]; then
+  echo " given $NUMBER is less then 25"
+elif [ $NUMBER -eq 25 ]; then 
+echo " given $NUMBER is equal to 25"
+else 
+ echo " given $NUMBER grater then 25"
+ fi
