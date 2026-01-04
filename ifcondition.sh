@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "please enter the pin :"
-
 NUMBER=$1
 
 if [ $NUMBER -lt 10 ]; then
