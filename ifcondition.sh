@@ -14,6 +14,6 @@ if [ $NUMBER -gt 20 ]; then
 
    echo $PWD
 
-   x=$((25+25=*2))
+   x=$((25*2+25))
 
    echo $x 
