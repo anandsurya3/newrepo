@@ -1,18 +1,14 @@
 #!/bin/bash
 
-
-echo "please enter the number :"
+echo "please enter the pin :"
 
 read NUMBER
 
-if [ $NUMBER -lt 10 ]; then
-    echo "Given number $NUMBER is less than 10"
-elif [ $NUMBER -eq 10 ]; then
-    echo "Given number $NUMBER is equal to 10"
-else
-    echo "Given number $NUMBER is greater than to 10"
-fi
-
-# -gt
-# -eq
-# -ne
+if [ $NUMBER -le 10 ]; then
+ echo "given number is less then 10"
+ elif [ $NUMBER -eq 10 ]; then
+  echo "given number is equal to 10"
+  else 
+   echo "given number is grater then 10"
+   fi
+   
