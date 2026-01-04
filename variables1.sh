@@ -11,11 +11,12 @@ read NUMBER
 
    $PWD 
 
-for i in {1..35}
-do
- echo $i
- done
+
 
 x=$((100*2))
 
 echo $x
+
+x+y=$((150800*2))
+
+echo $x+y
