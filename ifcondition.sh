@@ -1,16 +1,19 @@
 #!/bin/bash
 
-NUMBER=$1
+echo " please enter the pin :"
 
-if [ $NUMBER -lt 10 ]; then
- echo "given number is less then 10"
- elif [ $NUMBER -eq 10 ]; then
-  echo "given number is equal to 10"
-  else 
-   echo "given number is grater then 10"
-   fi
+read NUMBER 
 
-echo $PWD
+if [ $NUMBER -gt 20 ]; then
+ echo "given $NUMBER is less then 20"
+ elif [ $NUMBER -eq 20 ]; then
+  echo "given $NUMBER is equl to 20"
+  else
+   echo "given $NUMBER is grater then 20"
+   fi 
 
-echo x=$((25*2))
+   echo $PWD
 
+   x=$((25+25*2-75))
+
+   echo $x 
